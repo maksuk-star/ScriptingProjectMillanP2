@@ -1,4 +1,4 @@
-using System.Collections;
+ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -16,6 +16,14 @@ public class BehaviourCompoentScript : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.R))
         {
             GetComponent<Renderer>().material.color = Color.red;
+        }
+        if (Input.GetKeyDown(KeyCode.Y))
+        {
+            GetComponent<Renderer>().material.color = Color.yellow;
+        }
+        if (Input.GetKeyDown(KeyCode.M))
+        {
+            GetComponent<Renderer>().material.color = Color.magenta;
         }
         if (Input.GetKeyDown(KeyCode.G))
         {
