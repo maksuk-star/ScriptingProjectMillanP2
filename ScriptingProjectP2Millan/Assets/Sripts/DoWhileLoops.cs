@@ -7,12 +7,17 @@ public class DoWhileLoops : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        bool shouldContinue = false;
 
-    }
+        do
+        {
+            print("hello World");
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+
+        } while (shouldContinue == true);
     }
 }
+   
+    
+
+     
