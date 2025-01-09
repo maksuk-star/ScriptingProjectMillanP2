@@ -11,7 +11,7 @@ public class AwakeAndStart : MonoBehaviour
     }
 
     // Update is called once per frame
-    void start()
+    void Start()
     {
         Debug.Log("start called.");
     }
